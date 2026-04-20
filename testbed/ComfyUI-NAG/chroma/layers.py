@@ -2,7 +2,10 @@ import torch
 from torch import Tensor
 
 from comfy.ldm.flux.math import attention
-from comfy.ldm.chroma.layers import DoubleStreamBlock, SingleStreamBlock
+try:
+    from comfy.ldm.chroma.layers import DoubleStreamBlock, SingleStreamBlock
+except ImportError:
+    from comfy.ldm.flux.layers import DoubleStreamBlock, SingleStreamBlock
 
 from ..utils import nag
 
