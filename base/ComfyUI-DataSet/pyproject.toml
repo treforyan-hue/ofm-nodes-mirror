@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-dataset"
+description = "Data research, preparation, and manipulation nodes for model trainers and artists."
+version = "1.1.1"
+license = { file = "LICENSE" }
+dependencies = ["matplotlib", "wordcloud", "networkx", "pandas"]
+
+[project.urls]
+Repository = "https://github.com/daxcay/ComfyUI-DataSet"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "daxcay"
+DisplayName = "ComfyUI-DataSet"
+Icon = "https://raw.githubusercontent.com/daxcay/ComfyUI-DataSet/master/web/assets/img/logo.jpg"

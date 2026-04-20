@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "darkhub-prompt-library"
+description = "A workflow-portable prompt library node for ComfyUI with remote catalog syncing and image-first prompt browsing."
+version = "1.0.0"
+readme = "README.md"
+license = { file = "LICENSE.txt" }
+requires-python = ">=3.10"
+dynamic = ["dependencies"]
+classifiers = [
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://github.com/Cyber05CC/dark-HUB"
+Documentation = "https://github.com/Cyber05CC/dark-HUB#readme"
+"Bug Tracker" = "https://github.com/Cyber05CC/dark-HUB/issues"
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.comfy]
+PublisherId = "darken"
+DisplayName = "darkHUB Prompt Library"
+Icon = "https://raw.githubusercontent.com/Cyber05CC/dark-HUB/main/assets/icon.svg"
+Banner = "https://raw.githubusercontent.com/Cyber05CC/dark-HUB/main/assets/banner.svg"
+includes = ["js", "catalog", "assets"]

@@ -1,0 +1,7 @@
+matplotlib
+wordcloud
+networkx
+pandas
+openai
+groq
+anthropic

@@ -1,0 +1,659 @@
+{
+  "packages": [
+    {
+      "category": "base",
+      "name": "ComfyUI-KJNodes",
+      "url": "https://github.com/kijai/ComfyUI-KJNodes",
+      "commit": "068d4fe",
+      "status": "existed"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-VideoHelperSuite",
+      "url": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite",
+      "commit": "4498399",
+      "size_mb": 0.1,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-segment-anything-2",
+      "url": "https://github.com/kijai/ComfyUI-segment-anything-2",
+      "commit": "0c35fff",
+      "size_mb": 0.1,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-Custom-Scripts",
+      "url": "https://github.com/pythongosssss/ComfyUI-Custom-Scripts",
+      "commit": "609f3af",
+      "size_mb": 0.1,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-SCAIL-Pose",
+      "url": "https://github.com/kijai/ComfyUI-SCAIL-Pose",
+      "commit": "11402b1",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-WanAnimatePreprocess",
+      "url": "https://github.com/kijai/ComfyUI-WanAnimatePreprocess",
+      "commit": "1a35b81",
+      "size_mb": 0.5,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-Impact-Pack",
+      "url": "https://github.com/ltdrdata/ComfyUI-Impact-Pack",
+      "commit": "6a517eb",
+      "size_mb": 2.6,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-Easy-Use",
+      "url": "https://github.com/yolain/ComfyUI-Easy-Use",
+      "commit": "8ba21d0",
+      "size_mb": 4.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-SeedVR2_VideoUpscaler",
+      "url": "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler",
+      "commit": "4490bd1",
+      "size_mb": 4.8,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI_essentials",
+      "url": "https://github.com/cubiq/ComfyUI_essentials",
+      "commit": "9d9f4be",
+      "size_mb": 0.1,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI_IPAdapter_plus",
+      "url": "https://github.com/cubiq/ComfyUI_IPAdapter_plus",
+      "commit": "a0f451a",
+      "size_mb": 0.3,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "rgthree-comfy",
+      "url": "https://github.com/rgthree/rgthree-comfy",
+      "commit": "8ff50e4",
+      "size_mb": 4.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-GGUF",
+      "url": "https://github.com/city96/ComfyUI-GGUF",
+      "commit": "6ea2651",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-Florence2",
+      "url": "https://github.com/kijai/ComfyUI-Florence2",
+      "commit": "4051662",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-WD14-Tagger",
+      "url": "https://github.com/pythongosssss/ComfyUI-WD14-Tagger",
+      "commit": "9e0a6e7",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI",
+      "url": "https://github.com/comfyanonymous/ComfyUI.git",
+      "commit": "4b1444f",
+      "size_mb": 10.8,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-EulerDiscreteScheduler",
+      "url": "https://github.com/erosDiffusion/ComfyUI-EulerDiscreteScheduler",
+      "commit": "eb5bd4d",
+      "size_mb": 5.3,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "comfyui-propost",
+      "url": "https://github.com/digitaljohn/comfyui-propost",
+      "commit": "df6a6d1",
+      "size_mb": 2.9,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-Detail-Daemon",
+      "url": "https://github.com/Jonseed/ComfyUI-Detail-Daemon",
+      "commit": "39206d1",
+      "size_mb": 0.3,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyMath",
+      "url": "https://github.com/evanspearman/ComfyMath",
+      "commit": "c011772",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-WanVideoWrapper",
+      "url": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
+      "commit": "df8f3e4",
+      "size_mb": 19.1,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI_Comfyroll_CustomNodes",
+      "url": "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes",
+      "commit": "d78b780",
+      "size_mb": 1.1,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI_UltimateSDUpscale",
+      "url": "https://github.com/ssitu/ComfyUI_UltimateSDUpscale",
+      "commit": "c164c30",
+      "size_mb": 0.2,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-mxToolkit",
+      "url": "https://github.com/Smirnov75/ComfyUI-mxToolkit",
+      "commit": "7f7a0e5",
+      "size_mb": 0.1,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-DataSet",
+      "url": "https://github.com/daxcay/ComfyUI-DataSet",
+      "commit": "83a3c72",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-Impact-Subpack",
+      "url": "https://github.com/ltdrdata/ComfyUI-Impact-Subpack",
+      "commit": "50c7b71",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-Frame-Interpolation",
+      "url": "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation",
+      "commit": "26545cc",
+      "size_mb": 16.8,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI_JPS-Nodes",
+      "url": "https://github.com/JPS-GER/ComfyUI_JPS-Nodes",
+      "commit": "0e2a9ac",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "CRT-Nodes",
+      "url": "https://github.com/PGCRT/CRT-Nodes",
+      "commit": "7abbf87",
+      "size_mb": 7.9,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "masquerade-nodes-comfyui",
+      "url": "https://github.com/BadCafeCode/masquerade-nodes-comfyui",
+      "commit": "432cb4d",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "comfyui-various",
+      "url": "https://github.com/jamesWalker55/comfyui-various",
+      "commit": "5bd85aa",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI_SKBundle",
+      "url": "https://github.com/SKBv0/ComfyUI_SKBundle",
+      "commit": "1e13687",
+      "size_mb": 0.2,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "comfyui-teskors-utils",
+      "url": "https://github.com/teskor-hub/comfyui-teskors-utils",
+      "commit": "c4a8cd1",
+      "size_mb": 0.1,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "comfyui-vrgamedevgirl",
+      "url": "https://github.com/vrgamegirl19/comfyui-vrgamedevgirl",
+      "commit": "233bca8",
+      "size_mb": 20.4,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI_Fill-Nodes",
+      "url": "https://github.com/filliptm/ComfyUI_Fill-Nodes",
+      "commit": "3d71d2c",
+      "size_mb": 4.4,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "comfyui-yaser-nodes",
+      "url": "https://github.com/YaserJaradeh/comfyui-yaser-nodes",
+      "commit": "6822585",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-Easy-Sam3",
+      "url": "https://github.com/yolain/ComfyUI-Easy-Sam3",
+      "commit": "88fe578",
+      "size_mb": 2.9,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "Comfyui-Segment-Queue-Runner",
+      "url": "https://github.com/FX-FeiHou/Comfyui-Segment-Queue-Runner",
+      "commit": "49f85c1",
+      "size_mb": 0.1,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "Comfyui-Memory_Cleanup",
+      "url": "https://github.com/LAOGOU-666/Comfyui-Memory_Cleanup",
+      "commit": "58de13a",
+      "size_mb": 0.2,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI-IF_AI_tools",
+      "url": "https://github.com/if-ai/ComfyUI-IF_AI_tools",
+      "commit": "93130d8",
+      "size_mb": 1.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ultimate-upscale-for-automatic1111",
+      "url": "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111",
+      "commit": "master",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "comfyui-WhiteRabbit",
+      "url": "https://github.com/Artificial-Sweetener/comfyui-WhiteRabbit",
+      "commit": "1781562",
+      "size_mb": 10.8,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI-basic_data_handling",
+      "url": "https://github.com/StableLlama/ComfyUI-basic_data_handling",
+      "commit": "76a4822",
+      "size_mb": 0.1,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI-MelBandRoFormer",
+      "url": "https://github.com/kijai/ComfyUI-MelBandRoFormer",
+      "commit": "92c8685",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "comfyui_controlnet_aux",
+      "url": "https://github.com/Fannovel16/comfyui_controlnet_aux",
+      "commit": "95a13e2",
+      "size_mb": 39.4,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI-LTXVideo",
+      "url": "https://github.com/Lightricks/ComfyUI-LTXVideo",
+      "commit": "d43181d",
+      "size_mb": 8.2,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI_MusicTools",
+      "url": "https://github.com/jeankassio/ComfyUI_MusicTools",
+      "commit": "f3d86ef",
+      "size_mb": 0.3,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI-QwenVL-Mod",
+      "url": "https://github.com/huchukato/ComfyUI-QwenVL-Mod",
+      "commit": "98da23b",
+      "size_mb": 1.2,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "comfyui_qwen_image_edit_adv",
+      "url": "https://github.com/lenML/comfyui_qwen_image_edit_adv",
+      "commit": "6202738",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "comfy_mtb",
+      "url": "https://github.com/melMass/comfy_mtb",
+      "commit": "b705a17",
+      "size_mb": 1.2,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "was-node-suite-comfyui",
+      "url": "https://github.com/WASasquatch/was-node-suite-comfyui",
+      "commit": "ea935d1",
+      "size_mb": 20.4,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI-qwenmultiangle",
+      "url": "https://github.com/jtydhr88/ComfyUI-qwenmultiangle",
+      "commit": "10ccc5d",
+      "size_mb": 1.4,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "Comfyui-PainterFLF2V",
+      "url": "https://github.com/princepainter/Comfyui-PainterFLF2V",
+      "commit": "c81a68f",
+      "size_mb": 21.6,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "SeedVarianceEnhancer",
+      "url": "https://github.com/ChangeTheConstants/SeedVarianceEnhancer",
+      "commit": "aa97bae",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI-FishAudioS2",
+      "url": "https://github.com/Saganaki22/ComfyUI-FishAudioS2",
+      "commit": "0d15094",
+      "size_mb": 13.6,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "cg-use-everywhere",
+      "url": "https://github.com/chrisgoringe/cg-use-everywhere",
+      "commit": "a3952a4",
+      "size_mb": 2.1,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI_tinyterraNodes",
+      "url": "https://github.com/TinyTerra/ComfyUI_tinyterraNodes",
+      "commit": "b5bb57f",
+      "size_mb": 4.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI_yanc",
+      "url": "https://github.com/ALatentPlace/ComfyUI_yanc",
+      "commit": "923c366",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI-Inpaint-CropAndStitch",
+      "url": "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch",
+      "commit": "8e59ab1",
+      "size_mb": 12.4,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "zz_ComfyUI-post-processing-nodes",
+      "url": "https://github.com/EllangoK/ComfyUI-post-processing-nodes",
+      "commit": "c49a052",
+      "size_mb": 1.9,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ofmtechclip",
+      "url": "https://github.com/thatboymentor/ofmtechclip",
+      "commit": "6f0f956",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI_Steudio",
+      "url": "https://github.com/Steudio/ComfyUI_Steudio",
+      "commit": "bba4c36",
+      "size_mb": 6.9,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "Comfyui_LG_Tools",
+      "url": "https://github.com/LAOGOU-666/Comfyui_LG_Tools",
+      "commit": "8606cd0",
+      "size_mb": 3.1,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI-Batch-Process",
+      "url": "https://github.com/Zar4X/ComfyUI-Batch-Process",
+      "commit": "72ddf95",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyLiterals",
+      "url": "https://github.com/M1kep/ComfyLiterals",
+      "commit": "bdddb08",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "ComfyUI_LayerStyle",
+      "url": "https://github.com/chflame163/ComfyUI_LayerStyle",
+      "commit": "d94bef1",
+      "size_mb": 47.7,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "a-person-mask-generator",
+      "url": "https://github.com/djbielejeski/a-person-mask-generator",
+      "commit": "d258754",
+      "size_mb": 4.2,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "comfyui_segment_anything",
+      "url": "https://github.com/storyicon/comfyui_segment_anything",
+      "commit": "ab63955",
+      "size_mb": 0.2,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI-RMBG",
+      "url": "https://github.com/1038lab/ComfyUI-RMBG",
+      "commit": "d740251",
+      "size_mb": 3.2,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "dark-HUB",
+      "url": "https://github.com/Cyber05CC/dark-HUB",
+      "commit": "f0ae445",
+      "size_mb": 14.8,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI-NAG",
+      "url": "https://github.com/ChenDarYen/ComfyUI-NAG",
+      "commit": "ef8a641",
+      "size_mb": 0.7,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "Z-Image-Turbo-Lora-Stack-V4",
+      "url": "https://github.com/aistudynow/Z-Image-Turbo-Lora-Stack-V4",
+      "commit": "0060fad",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI-Image-Size-Tools",
+      "url": "https://github.com/TheLustriVA/ComfyUI-Image-Size-Tools",
+      "commit": "1cb252c",
+      "size_mb": 0.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "SaveVideoRGBA",
+      "url": "https://github.com/yolain/SaveVideoRGBA",
+      "commit": "af1f37c",
+      "size_mb": 0.3,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI-SAM3",
+      "url": "https://github.com/PozzettiAndrea/ComfyUI-SAM3",
+      "commit": "b3cf412",
+      "size_mb": 34.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI-Chibi-Nodes",
+      "url": "https://github.com/chibiace/ComfyUI-Chibi-Nodes",
+      "commit": "9a9734f",
+      "size_mb": 2.8,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "aa_ComfyUI-GlifNodes",
+      "url": "https://github.com/glifxyz/ComfyUI-GlifNodes",
+      "commit": "503d6d5",
+      "size_mb": 3.0,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI_Swwan",
+      "url": "https://github.com/aining2022/ComfyUI_Swwan",
+      "commit": "789eff2",
+      "size_mb": 11.1,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "ComfyUI_VNCCS_Utils",
+      "url": "https://github.com/AHEKOT/ComfyUI_VNCCS_Utils",
+      "commit": "d4b2d47",
+      "size_mb": 51.9,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "efficiency-nodes-comfyui",
+      "url": "https://github.com/jags111/efficiency-nodes-comfyui",
+      "commit": "4579b7d",
+      "size_mb": 131.1,
+      "status": "downloaded"
+    },
+    {
+      "category": "testbed",
+      "name": "LanPaint",
+      "url": "https://github.com/scraed/LanPaint",
+      "commit": "ba4bb68",
+      "size_mb": 162.4,
+      "status": "downloaded"
+    },
+    {
+      "category": "base",
+      "name": "RES4LYF",
+      "url": "https://github.com/ClownsharkBatwing/RES4LYF",
+      "commit": "0dc91c0",
+      "size_mb": 212.6,
+      "status": "downloaded"
+    }
+  ]
+}

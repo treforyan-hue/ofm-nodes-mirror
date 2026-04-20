@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-segment-queue-runner"
+version = "2.5.0"
+description = "Support multi-task parallel queue."
+authors = [{name = "FeiHou"}]
+license = "MIT"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/FX-FeiHou/Comfyui-Segment-Queue-Runner"
+
+[tool.comfy]
+PublisherId = "fx-feihou"
+DisplayName = "Segment-Queue-Runner"
