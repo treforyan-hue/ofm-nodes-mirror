@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "scope": "Pinned tested source snapshots, with weights, interpreter environments, local credentials and redundant nested ZIP distributions excluded; no executable is run by publication. Includes original upstream notices and all runtime source/frontend files.",
+  "scope": "Pinned runtime source/frontend snapshots. Binary model/data assets, weights, environments and credentials are excluded. Bundled assets have a separate immutable lock.",
   "created_utc": "2026-10-06T01:00:34Z",
   "packages": [
     {
@@ -26179,8 +26179,8 @@
     {
       "directory": "nodes/ComfyUI-WanVideoWrapper",
       "archive": "nodes__ComfyUI-WanVideoWrapper.tar.gz",
-      "bytes": 14634998,
-      "sha256": "90e35e6cc96c103480e9f58d0e4f1eed04e04adad0ccf54685d908214c5a07c6",
+      "bytes": 14632342,
+      "sha256": "6219616a0d5aed05d5e6aa23a8d8e684d41280e3c8d269a2586357e0dc57d8f1",
       "revision": "df8f3e49daaad117cf3090cc916c83f3d001494c",
       "tracked_changes": "D fantasyportrait/models/face_det.onnx\n D fantasyportrait/models/face_landmark.onnx\n D multitalk/encoded_silence.safetensors\n M nodes.py",
       "files": [
@@ -26273,16 +26273,6 @@
           "path": "LongVie2/nodes.py",
           "bytes": 4969,
           "sha256": "6bdcd9c91a17ce2cdbc054f12f3f74ca9bab377a26df5a1cf4a57d7c9ea1c3cd"
-        },
-        {
-          "path": "MTV/data/mean.npy",
-          "bytes": 416,
-          "sha256": "3ababeaabf5ac096ce7c7714ada14aa1de8355c0016de25695be611d51285141"
-        },
-        {
-          "path": "MTV/data/std.npy",
-          "bytes": 416,
-          "sha256": "650e46902a0878e6947be401e4e1995e54a8fd407f2be3ded0dda62bda99a9b3"
         },
         {
           "path": "MTV/draw_pose.py",
@@ -26428,16 +26418,6 @@
           "path": "SCAIL/nodes.py",
           "bytes": 4390,
           "sha256": "37a586493666f81e8fca7f017e23c15e2b96332abca3cdc9984718ec676ce430"
-        },
-        {
-          "path": "WanMove/example_tracks.npy",
-          "bytes": 776,
-          "sha256": "678110c4d4b3ebf6a3851bd43a33013da6251ab24ad49e9c89ec6c2defbfa2ac"
-        },
-        {
-          "path": "WanMove/example_visibility.npy",
-          "bytes": 209,
-          "sha256": "4aaf18d47e5e05b94bbda8f044fc2d685bf6bce8d91665def0d0ce6e9432663f"
         },
         {
           "path": "WanMove/nodes.py",
@@ -27380,9 +27360,15 @@
       "parts": [
         {
           "path": "nodes__ComfyUI-WanVideoWrapper.tar.gz.part000",
-          "bytes": 14634998,
-          "sha256": "90e35e6cc96c103480e9f58d0e4f1eed04e04adad0ccf54685d908214c5a07c6"
+          "bytes": 14632342,
+          "sha256": "6219616a0d5aed05d5e6aa23a8d8e684d41280e3c8d269a2586357e0dc57d8f1"
         }
+      ],
+      "external_binary_assets": [
+        "MTV/data/mean.npy",
+        "MTV/data/std.npy",
+        "WanMove/example_tracks.npy",
+        "WanMove/example_visibility.npy"
       ]
     },
     {
@@ -31513,8 +31499,8 @@
     {
       "directory": "nodes/ComfyUI_INSTARAW",
       "archive": "nodes__ComfyUI_INSTARAW.tar.gz",
-      "bytes": 8120546,
-      "sha256": "09fcce884bdee4164316679e9148997cb7460f40b6f9ed76aa0052fe1bed85b7",
+      "bytes": 4716651,
+      "sha256": "e80ebabd6b60a8fd6fb9a3db01c3a8ffadf9d3dbe84edf141c08f64b1e559857",
       "revision": null,
       "tracked_changes": null,
       "files": [
@@ -31664,11 +31650,6 @@
           "sha256": "a8f62c562211328496b95b761309d2d0c96a33427125d279f9fcc04867eb0087"
         },
         {
-          "path": "modules/authenticity_profiles/iphone_12.npz",
-          "bytes": 477647,
-          "sha256": "500f432f11396d9b3eb82dd9ea6c117f809be53abdf8b7d1f24e204117a15509"
-        },
-        {
           "path": "modules/authenticity_profiles/iphone_13_pro.icc",
           "bytes": 536,
           "sha256": "20789fdbea9835251a4f0796c8bf45cbd964896044886540da21ffc7457af0ab"
@@ -31677,11 +31658,6 @@
           "path": "modules/authenticity_profiles/iphone_13_pro.json",
           "bytes": 34158,
           "sha256": "0a37a0ebb0ddafa91e86b503e577b9138647603566b24533b9d95949dc3a7951"
-        },
-        {
-          "path": "modules/authenticity_profiles/iphone_13_pro.npz",
-          "bytes": 333807,
-          "sha256": "175c1792ab5d4489d5e77e2bc1273d20726b26d7fe2f0a107bf8ab1105c67d54"
         },
         {
           "path": "modules/authenticity_profiles/iphone_14_plus.icc",
@@ -31694,11 +31670,6 @@
           "sha256": "b949c7962c71eebe4ef413b9d36917ec6653d8846bf1b6e5b43191f7cac6f79f"
         },
         {
-          "path": "modules/authenticity_profiles/iphone_14_plus.npz",
-          "bytes": 1006038,
-          "sha256": "0d9f9c8fde2c54043f4e7610f93ce2673a40b674384781279ff8e379a6831d38"
-        },
-        {
           "path": "modules/authenticity_profiles/iphone_14_pro_max.icc",
           "bytes": 536,
           "sha256": "20789fdbea9835251a4f0796c8bf45cbd964896044886540da21ffc7457af0ab"
@@ -31709,11 +31680,6 @@
           "sha256": "59c8fb5391a1fc8e2145790d8dd9017c2dbbeafeb136542164fba23594a18f41"
         },
         {
-          "path": "modules/authenticity_profiles/iphone_14_pro_max.npz",
-          "bytes": 1014665,
-          "sha256": "f3a7fbeb41d4db2f9a73d800abf5a29ec523e6b8f006d1cf5189fb20afc88927"
-        },
-        {
           "path": "modules/authenticity_profiles/iphone_15_pro_max.icc",
           "bytes": 536,
           "sha256": "20789fdbea9835251a4f0796c8bf45cbd964896044886540da21ffc7457af0ab"
@@ -31722,11 +31688,6 @@
           "path": "modules/authenticity_profiles/iphone_15_pro_max.json",
           "bytes": 375697,
           "sha256": "fa4418db9eae72c471300b0969313b256d68991c9c031f053b540b95d8373558"
-        },
-        {
-          "path": "modules/authenticity_profiles/iphone_15_pro_max.npz",
-          "bytes": 563974,
-          "sha256": "3223228cd26112bc9bd06d1587bce91f604537aab10e7bfb643ccc39291c3fa5"
         },
         {
           "path": "modules/color_profiles/sRGB_IEC61966-2-1_no_black_scaling.icc",
@@ -32324,9 +32285,16 @@
       "parts": [
         {
           "path": "nodes__ComfyUI_INSTARAW.tar.gz.part000",
-          "bytes": 8120546,
-          "sha256": "09fcce884bdee4164316679e9148997cb7460f40b6f9ed76aa0052fe1bed85b7"
+          "bytes": 4716651,
+          "sha256": "e80ebabd6b60a8fd6fb9a3db01c3a8ffadf9d3dbe84edf141c08f64b1e559857"
         }
+      ],
+      "external_binary_assets": [
+        "modules/authenticity_profiles/iphone_12.npz",
+        "modules/authenticity_profiles/iphone_13_pro.npz",
+        "modules/authenticity_profiles/iphone_14_plus.npz",
+        "modules/authenticity_profiles/iphone_14_pro_max.npz",
+        "modules/authenticity_profiles/iphone_15_pro_max.npz"
       ]
     },
     {
@@ -42809,8 +42777,8 @@
     {
       "directory": "nodes/Goohaitools-comfyui",
       "archive": "nodes__Goohaitools-comfyui.tar.gz",
-      "bytes": 61521799,
-      "sha256": "5327c23f504959660df8bd3821b42ec39f9e9c409b50c399890d0cf384ccaed2",
+      "bytes": 54877446,
+      "sha256": "2a1bc3cfc88268bcfed5ee6777e4dedcde2d503f3cc541507564eadf678cd98f",
       "revision": "537382d8198aa9bd03a614587fac1f239f71ba06",
       "tracked_changes": "M __init__.py",
       "files": [
@@ -44770,11 +44738,6 @@
           "sha256": "1eaff907d0d1c82d1bd044a7e4dca42b0721deda53c71fc3a7ac02f1e145dbdc"
         },
         {
-          "path": "shape_predictor_5_face_landmarks.dat",
-          "bytes": 9150489,
-          "sha256": "c4b1e9804792707d3a405c2c16a80a20269e6675021f64a41d30fffafbc41888"
-        },
-        {
           "path": "web/js/BOOLEAN.js",
           "bytes": 7965,
           "sha256": "184ddb889362c770eff98bba23579b35e24c3a4dd684b97bfc588f42dfbe6d64"
@@ -44861,13 +44824,16 @@
         {
           "path": "nodes__Goohaitools-comfyui.tar.gz.part000",
           "bytes": 50331648,
-          "sha256": "747cc130673c24634b1d3fd63bb084d3e1c62d7da6c36b06ed6941611fc7d0ff"
+          "sha256": "1c22ed4e1d0fa7606e5643f6205a67ec5e8d2fa2732e43407abcccab853d6a22"
         },
         {
           "path": "nodes__Goohaitools-comfyui.tar.gz.part001",
-          "bytes": 11190151,
-          "sha256": "581760cc2785d567309f9da43e54af88fe655e36a95fb7ff7575415ac8484b86"
+          "bytes": 4545798,
+          "sha256": "da010b1de31e52aa6846f0bb2f6545c6ae72ac6fc0c033421759b6276f1eb5ec"
         }
+      ],
+      "external_binary_assets": [
+        "shape_predictor_5_face_landmarks.dat"
       ]
     },
     {
@@ -62187,8 +62153,8 @@
     {
       "directory": "nodes/comfyui_controlnet_aux",
       "archive": "nodes__comfyui_controlnet_aux.tar.gz",
-      "bytes": 39496997,
-      "sha256": "1d05cb26b7e1f6b59fe19cdc7e7020f6820f43675deeee41d7c61def7df9976a",
+      "bytes": 32361219,
+      "sha256": "2e86a71d70ee7c89b3f2b742d702abe607e6cb640f0c2fef665f806ecd87b013",
       "revision": "95a13e2e5d8f8ae57583fbebb0be1f670889858b",
       "tracked_changes": "D src/custom_controlnet_aux/diffusion_edge/taming/modules/autoencoder/lpips/vgg.pth\n D src/custom_mesh_graphormer/modeling/data/mano_195_adjmat_indices.pt\n D src/custom_mesh_graphormer/modeling/data/mano_195_adjmat_size.pt\n D src/custom_mesh_graphormer/modeling/data/mano_195_adjmat_values.pt\n D src/custom_mesh_graphormer/modeling/data/smpl_431_adjmat_indices.pt\n D src/custom_mesh_graphormer/modeling/data/smpl_431_adjmat_size.pt\n D src/custom_mesh_graphormer/modeling/data/smpl_431_adjmat_values.pt",
       "files": [
@@ -64343,26 +64309,6 @@
           "sha256": "cfa4ef655d941d0be2b2d694e012a2b238599b1d376e313d29894276a0bbbef1"
         },
         {
-          "path": "src/custom_mesh_graphormer/modeling/data/J_regressor_extra.npy",
-          "bytes": 771808,
-          "sha256": "40dfaa71fcc7eed6966a6ed046311b7e8ea0eb9a5172b298e3df6fc4b6ec0eb0"
-        },
-        {
-          "path": "src/custom_mesh_graphormer/modeling/data/J_regressor_h36m_correct.npy",
-          "bytes": 937168,
-          "sha256": "1835d64133d5f66bd80a814ab1c1dc0900ef01950f568320acf5f9390c1f2c8c"
-        },
-        {
-          "path": "src/custom_mesh_graphormer/modeling/data/MANO_LEFT.pkl",
-          "bytes": 3447713,
-          "sha256": "b61cdb94a33582d626456752515624d7c558b5adcc997d13fb422963b5f791ed"
-        },
-        {
-          "path": "src/custom_mesh_graphormer/modeling/data/MANO_RIGHT.pkl",
-          "bytes": 3447679,
-          "sha256": "9e3fb9ac790637539011258e211415d3bcae8daa2759c86b9046f4b371f0c423"
-        },
-        {
           "path": "src/custom_mesh_graphormer/modeling/data/README.md",
           "bytes": 1295,
           "sha256": "9296a8771478d47e4b50479508b5435bbbe6aa2a4fba678a494c29a8ae2a6a6f"
@@ -64371,21 +64317,6 @@
           "path": "src/custom_mesh_graphormer/modeling/data/config.py",
           "bytes": 2409,
           "sha256": "08f4be883b58d63b885d564abe551e78d5a346391f6faaf81455f9d1510a1506"
-        },
-        {
-          "path": "src/custom_mesh_graphormer/modeling/data/mano_downsampling.npz",
-          "bytes": 176509,
-          "sha256": "db2b23b0ede7c34039f1d8960e2e839552e0f58d4b34a8612b4065d8a47f9c80"
-        },
-        {
-          "path": "src/custom_mesh_graphormer/modeling/data/mesh_downsampling.npz",
-          "bytes": 1720359,
-          "sha256": "5683b656d9acd7f1558db832527beb0cc6b3b45388cf41a7979dab52e2c57477"
-        },
-        {
-          "path": "src/custom_mesh_graphormer/modeling/data/smpl_431_faces.npy",
-          "bytes": 21128,
-          "sha256": "9dc2cfedd4901e31a9ac3c9f60bcaf7647ef41b067e68ceb15ac194b7b6714ae"
         },
         {
           "path": "src/custom_mesh_graphormer/modeling/hrnet/config/__init__.py",
@@ -65893,9 +65824,18 @@
       "parts": [
         {
           "path": "nodes__comfyui_controlnet_aux.tar.gz.part000",
-          "bytes": 39496997,
-          "sha256": "1d05cb26b7e1f6b59fe19cdc7e7020f6820f43675deeee41d7c61def7df9976a"
+          "bytes": 32361219,
+          "sha256": "2e86a71d70ee7c89b3f2b742d702abe607e6cb640f0c2fef665f806ecd87b013"
         }
+      ],
+      "external_binary_assets": [
+        "src/custom_mesh_graphormer/modeling/data/J_regressor_extra.npy",
+        "src/custom_mesh_graphormer/modeling/data/J_regressor_h36m_correct.npy",
+        "src/custom_mesh_graphormer/modeling/data/MANO_LEFT.pkl",
+        "src/custom_mesh_graphormer/modeling/data/MANO_RIGHT.pkl",
+        "src/custom_mesh_graphormer/modeling/data/mano_downsampling.npz",
+        "src/custom_mesh_graphormer/modeling/data/mesh_downsampling.npz",
+        "src/custom_mesh_graphormer/modeling/data/smpl_431_faces.npy"
       ]
     },
     {
@@ -72508,7 +72448,7 @@
     }
   ],
   "package_count": 125,
-  "archive_bytes": 1276993715,
+  "archive_bytes": 1259807033,
   "mirror_repository": "treforyan-hue/ofm-nodes-mirror",
   "mirror_path": "runtime-snapshots/2026-10-06"
 }

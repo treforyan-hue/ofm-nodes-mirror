@@ -1,0 +1,467 @@
+{
+  "schema": 1,
+  "scope": "Exact existing owner GitHub copies of bundled assets; no model download/install is allowed on the PC",
+  "files": [
+    {
+      "target": "custom_nodes/ComfyUI-WanVideoWrapper/MTV/data/mean.npy",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/ComfyUI-WanVideoWrapper/MTV/data/mean.npy"
+      },
+      "bytes": 416,
+      "sha256": "3ababeaabf5ac096ce7c7714ada14aa1de8355c0016de25695be611d51285141",
+      "git_blob_oid": "001d7e7a450836a286a261bec91b2e72f8f926d2",
+      "reason": "Bundled binary asset kept separate from source snapshots"
+    },
+    {
+      "target": "custom_nodes/ComfyUI-WanVideoWrapper/MTV/data/std.npy",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/ComfyUI-WanVideoWrapper/MTV/data/std.npy"
+      },
+      "bytes": 416,
+      "sha256": "650e46902a0878e6947be401e4e1995e54a8fd407f2be3ded0dda62bda99a9b3",
+      "git_blob_oid": "5d1db82923759854dcd53a28beb59abeab80e711",
+      "reason": "Bundled binary asset kept separate from source snapshots"
+    },
+    {
+      "target": "custom_nodes/ComfyUI-WanVideoWrapper/WanMove/example_tracks.npy",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/ComfyUI-WanVideoWrapper/WanMove/example_tracks.npy"
+      },
+      "bytes": 776,
+      "sha256": "678110c4d4b3ebf6a3851bd43a33013da6251ab24ad49e9c89ec6c2defbfa2ac",
+      "git_blob_oid": "f9759ebc83b31d5d5b89244a5facc4badfe2a393",
+      "reason": "Bundled binary asset kept separate from source snapshots"
+    },
+    {
+      "target": "custom_nodes/ComfyUI-WanVideoWrapper/WanMove/example_visibility.npy",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/ComfyUI-WanVideoWrapper/WanMove/example_visibility.npy"
+      },
+      "bytes": 209,
+      "sha256": "4aaf18d47e5e05b94bbda8f044fc2d685bf6bce8d91665def0d0ce6e9432663f",
+      "git_blob_oid": "70e1137fc7abb1b19f188a96b840a17ea1b75f33",
+      "reason": "Bundled binary asset kept separate from source snapshots"
+    },
+    {
+      "target": "custom_nodes/ComfyUI_INSTARAW/modules/authenticity_profiles/iphone_12.npz",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "extras/ComfyUI_INSTARAW/modules/authenticity_profiles/iphone_12.npz"
+      },
+      "bytes": 477647,
+      "sha256": "500f432f11396d9b3eb82dd9ea6c117f809be53abdf8b7d1f24e204117a15509",
+      "git_blob_oid": "cb63c267b5c1a42d1ed65ad1d3059747e6eb5ada",
+      "reason": "Bundled binary asset kept separate from source snapshots"
+    },
+    {
+      "target": "custom_nodes/ComfyUI_INSTARAW/modules/authenticity_profiles/iphone_13_pro.npz",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "extras/ComfyUI_INSTARAW/modules/authenticity_profiles/iphone_13_pro.npz"
+      },
+      "bytes": 333807,
+      "sha256": "175c1792ab5d4489d5e77e2bc1273d20726b26d7fe2f0a107bf8ab1105c67d54",
+      "git_blob_oid": "91bf260d22f4bb05d4a60531a32dab8befb48f7d",
+      "reason": "Bundled binary asset kept separate from source snapshots"
+    },
+    {
+      "target": "custom_nodes/ComfyUI_INSTARAW/modules/authenticity_profiles/iphone_14_plus.npz",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "extras/ComfyUI_INSTARAW/modules/authenticity_profiles/iphone_14_plus.npz"
+      },
+      "bytes": 1006038,
+      "sha256": "0d9f9c8fde2c54043f4e7610f93ce2673a40b674384781279ff8e379a6831d38",
+      "git_blob_oid": "e604208d66e9edcd74af8e605b4bd1fbd3083094",
+      "reason": "Bundled binary asset kept separate from source snapshots"
+    },
+    {
+      "target": "custom_nodes/ComfyUI_INSTARAW/modules/authenticity_profiles/iphone_14_pro_max.npz",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "extras/ComfyUI_INSTARAW/modules/authenticity_profiles/iphone_14_pro_max.npz"
+      },
+      "bytes": 1014665,
+      "sha256": "f3a7fbeb41d4db2f9a73d800abf5a29ec523e6b8f006d1cf5189fb20afc88927",
+      "git_blob_oid": "f99b658cd0f4133e68db58ab5aff4a727ab96462",
+      "reason": "Bundled binary asset kept separate from source snapshots"
+    },
+    {
+      "target": "custom_nodes/ComfyUI_INSTARAW/modules/authenticity_profiles/iphone_15_pro_max.npz",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "extras/ComfyUI_INSTARAW/modules/authenticity_profiles/iphone_15_pro_max.npz"
+      },
+      "bytes": 563974,
+      "sha256": "3223228cd26112bc9bd06d1587bce91f604537aab10e7bfb643ccc39291c3fa5",
+      "git_blob_oid": "948fde0ec64501d7bb8af17cec368a700235afb9",
+      "reason": "Bundled binary asset kept separate from source snapshots"
+    },
+    {
+      "target": "custom_nodes/Goohaitools-comfyui/shape_predictor_5_face_landmarks.dat",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "6b15cb102fe2df2190f828ca68a0cf4aa7419f47",
+        "archive_member": "shape_predictor_5_face_landmarks.dat",
+        "archive_sha256": "5327c23f504959660df8bd3821b42ec39f9e9c409b50c399890d0cf384ccaed2",
+        "archive_bytes": 61521799,
+        "parts": [
+          {
+            "path": "runtime-snapshots/2026-10-06/nodes__Goohaitools-comfyui.tar.gz.part000",
+            "bytes": 50331648,
+            "sha256": "747cc130673c24634b1d3fd63bb084d3e1c62d7da6c36b06ed6941611fc7d0ff"
+          },
+          {
+            "path": "runtime-snapshots/2026-10-06/nodes__Goohaitools-comfyui.tar.gz.part001",
+            "bytes": 11190151,
+            "sha256": "581760cc2785d567309f9da43e54af88fe655e36a95fb7ff7575415ac8484b86"
+          }
+        ]
+      },
+      "bytes": 9150489,
+      "sha256": "c4b1e9804792707d3a405c2c16a80a20269e6675021f64a41d30fffafbc41888",
+      "git_blob_oid": "67878ed3894d929c5e03bd1ad2d931cc6d745ee7",
+      "reason": "Bundled binary asset kept separate from source snapshots"
+    },
+    {
+      "target": "custom_nodes/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/J_regressor_extra.npy",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/J_regressor_extra.npy"
+      },
+      "bytes": 771808,
+      "sha256": "40dfaa71fcc7eed6966a6ed046311b7e8ea0eb9a5172b298e3df6fc4b6ec0eb0",
+      "git_blob_oid": "d045e0837ed5b47e8c022f91fa3d0dd5f3cc6bad",
+      "reason": "Bundled binary asset kept separate from source snapshots"
+    },
+    {
+      "target": "custom_nodes/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/J_regressor_h36m_correct.npy",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/J_regressor_h36m_correct.npy"
+      },
+      "bytes": 937168,
+      "sha256": "1835d64133d5f66bd80a814ab1c1dc0900ef01950f568320acf5f9390c1f2c8c",
+      "git_blob_oid": "8fe4518c599cc4f6ea4d95bedfae5444fe38ec80",
+      "reason": "Bundled binary asset kept separate from source snapshots"
+    },
+    {
+      "target": "custom_nodes/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/MANO_LEFT.pkl",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/MANO_LEFT.pkl"
+      },
+      "bytes": 3447713,
+      "sha256": "b61cdb94a33582d626456752515624d7c558b5adcc997d13fb422963b5f791ed",
+      "git_blob_oid": "745210a655b9291ee561e1b817ed844e27aa0f12",
+      "reason": "Bundled binary asset kept separate from source snapshots"
+    },
+    {
+      "target": "custom_nodes/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/MANO_RIGHT.pkl",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/MANO_RIGHT.pkl"
+      },
+      "bytes": 3447679,
+      "sha256": "9e3fb9ac790637539011258e211415d3bcae8daa2759c86b9046f4b371f0c423",
+      "git_blob_oid": "06b42f3335373d71020a3e9fda1b0beab715638c",
+      "reason": "Bundled binary asset kept separate from source snapshots"
+    },
+    {
+      "target": "custom_nodes/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/mano_downsampling.npz",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/mano_downsampling.npz"
+      },
+      "bytes": 176509,
+      "sha256": "db2b23b0ede7c34039f1d8960e2e839552e0f58d4b34a8612b4065d8a47f9c80",
+      "git_blob_oid": "dba39181262856a80e6653944aa4b81dfb755f97",
+      "reason": "Bundled binary asset kept separate from source snapshots"
+    },
+    {
+      "target": "custom_nodes/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/mesh_downsampling.npz",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/mesh_downsampling.npz"
+      },
+      "bytes": 1720359,
+      "sha256": "5683b656d9acd7f1558db832527beb0cc6b3b45388cf41a7979dab52e2c57477",
+      "git_blob_oid": "d11735859ff0b8aeec6129209cf71051b2fd80fb",
+      "reason": "Bundled binary asset kept separate from source snapshots"
+    },
+    {
+      "target": "custom_nodes/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/smpl_431_faces.npy",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/smpl_431_faces.npy"
+      },
+      "bytes": 21128,
+      "sha256": "9dc2cfedd4901e31a9ac3c9f60bcaf7647ef41b067e68ceb15ac194b7b6714ae",
+      "git_blob_oid": "f80b7567f5ad21b1fd8d619620a474324ed79df1",
+      "reason": "Bundled binary asset kept separate from source snapshots"
+    },
+    {
+      "target": "custom_nodes/ComfyUI-KJNodes/intrinsic_loras/intrinsic_lora_sd15_albedo.safetensors",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/ComfyUI-KJNodes/intrinsic_loras/intrinsic_lora_sd15_albedo.safetensors"
+      },
+      "bytes": 6416109,
+      "sha256": "d897f04ff2bb452e29a8f2a3c5c3cd5c55e95f314242cd645fbbe24a5ac59961",
+      "git_blob_oid": "4f34d153e2bac1868d08ac25bf96c5773c22ac4f",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/ComfyUI-KJNodes/intrinsic_loras/intrinsic_lora_sd15_depth.safetensors",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/ComfyUI-KJNodes/intrinsic_loras/intrinsic_lora_sd15_depth.safetensors"
+      },
+      "bytes": 6416109,
+      "sha256": "f199d6bf3180fe7271073c3769dcb764b40f35f41b30fcb183ae5bf4b6a9997f",
+      "git_blob_oid": "34fec4ce0bef3b34975a5713f001829a62ae97ae",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/ComfyUI-KJNodes/intrinsic_loras/intrinsic_lora_sd15_normal.safetensors",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/ComfyUI-KJNodes/intrinsic_loras/intrinsic_lora_sd15_normal.safetensors"
+      },
+      "bytes": 6416109,
+      "sha256": "02934db0a0b92a9cdda402e42548560beda7d31b268e561dbc6815551e876268",
+      "git_blob_oid": "e3ae0479fa74996d6efd9bf7433e87ac4f4caba1",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/ComfyUI-KJNodes/intrinsic_loras/intrinsic_lora_sd15_shading.safetensors",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/ComfyUI-KJNodes/intrinsic_loras/intrinsic_lora_sd15_shading.safetensors"
+      },
+      "bytes": 6416109,
+      "sha256": "635e998063a10211633edd3e4b1676201822cd67f790ec71dba5f32d8b625c8b",
+      "git_blob_oid": "68a0c76fe7d6a394f0177d02e6423b57c2a21d17",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/ComfyUI-SeedVR2_VideoUpscaler/neg_emb.pt",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/ComfyUI-SeedVR2_VideoUpscaler/neg_emb.pt"
+      },
+      "bytes": 656540,
+      "sha256": "6a43e5800ef2354f1c156d27535834da055cbec8248298b8923492bba2076581",
+      "git_blob_oid": "2e76fecf78f51104a09ca9473e92903606f8230d",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/ComfyUI-SeedVR2_VideoUpscaler/pos_emb.pt",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/ComfyUI-SeedVR2_VideoUpscaler/pos_emb.pt"
+      },
+      "bytes": 595100,
+      "sha256": "fa07a14844314772266b66c3b95deb0027696d8fe7065721263db5176f45d799",
+      "git_blob_oid": "b34aa38d9d875614daedc6f4c37520d5db588439",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/ComfyUI-WanVideoWrapper/fantasyportrait/models/face_det.onnx",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/ComfyUI-WanVideoWrapper/fantasyportrait/models/face_det.onnx"
+      },
+      "bytes": 370619,
+      "sha256": "7ea8de1da304c1459a11f637798bb1140805365aeb3cf6637ca6d61909720aec",
+      "git_blob_oid": "1a718a4b62d62cb78bdfb61dd0bc099418401701",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/ComfyUI-WanVideoWrapper/fantasyportrait/models/face_landmark.onnx",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/ComfyUI-WanVideoWrapper/fantasyportrait/models/face_landmark.onnx"
+      },
+      "bytes": 2865751,
+      "sha256": "463aaa48dd24b9d3b966c76accf9a27f7c590a73a3827d5002a975e46bd54995",
+      "git_blob_oid": "42f49159562dcc831593d7d0b79d415d2c292d80",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/ComfyUI-WanVideoWrapper/multitalk/encoded_silence.safetensors",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/ComfyUI-WanVideoWrapper/multitalk/encoded_silence.safetensors"
+      },
+      "bytes": 1658968,
+      "sha256": "cd68739d78b9566cf3d575e4140f7e02f0d36e4ae9bcb33457d92711c3c6584d",
+      "git_blob_oid": "5ab6aa7b27ddb34e77e7f1228c9b26f4642f8533",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/comfyui_controlnet_aux/src/custom_controlnet_aux/diffusion_edge/taming/modules/autoencoder/lpips/vgg.pth",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/comfyui_controlnet_aux/src/custom_controlnet_aux/diffusion_edge/taming/modules/autoencoder/lpips/vgg.pth"
+      },
+      "bytes": 7289,
+      "sha256": "a78928a0af1e5f0fcb1f3b9e8f8c3a2a5a3de244d830ad5c1feddc79b8432868",
+      "git_blob_oid": "47e943cfacabf7040b4af8cf4084ab91177f1b88",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/mano_195_adjmat_indices.pt",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/mano_195_adjmat_indices.pt"
+      },
+      "bytes": 21639,
+      "sha256": "f99d80a96bbced27df6b6dee4fbdc01ee326e7e2691a79ca596ad03f57db8a6a",
+      "git_blob_oid": "b67b782e1425f362b23ed978a64ae9573167caec",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/mano_195_adjmat_size.pt",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/mano_195_adjmat_size.pt"
+      },
+      "bytes": 173,
+      "sha256": "cd137f9f2b1b8827251934784326a5b05f1415333101c13c849ed6b5eba6c3a4",
+      "git_blob_oid": "a9a25c3aeebc713dbe4c3dfcf47ac5346d453786",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/mano_195_adjmat_values.pt",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/mano_195_adjmat_values.pt"
+      },
+      "bytes": 5663,
+      "sha256": "29945bf3dce6ce679fc6b35ed9007aa531f68e6e2e44a59d5ab69a643862f8f9",
+      "git_blob_oid": "b642f6051081a3bb6ddfd79811d12422bb448ed8",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/smpl_431_adjmat_indices.pt",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/smpl_431_adjmat_indices.pt"
+      },
+      "bytes": 48423,
+      "sha256": "6cd71fd5e0ed2c55b909fad982a80fe3a0ddaf6e203721e030c9ea0246891f73",
+      "git_blob_oid": "07699e2c3109124731505405443904f14b9d3e2b",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/smpl_431_adjmat_size.pt",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/smpl_431_adjmat_size.pt"
+      },
+      "bytes": 175,
+      "sha256": "f2b87183ef2493228e014b5e725f59755a2c75f034684f7cca72c34f7a9d0ae0",
+      "git_blob_oid": "c93200decae7d244d3882028a4258d013d5dee7a",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/smpl_431_adjmat_values.pt",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/comfyui_controlnet_aux/src/custom_mesh_graphormer/modeling/data/smpl_431_adjmat_values.pt"
+      },
+      "bytes": 12359,
+      "sha256": "0d098729e4bc1bdc21545ff99cbe0560c44210a38ff43db7b2858dbfa03e3073",
+      "git_blob_oid": "0489ebaeb0f7960a58e56889aa65519c4adc38cf",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/efficiency-nodes-comfyui/py/sd15_resizer.pt",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/efficiency-nodes-comfyui/py/sd15_resizer.pt"
+      },
+      "bytes": 12628977,
+      "sha256": "8fa1cb8168b305d556f2e8178c820b0a6956f4ba84ebc9443fac69be43ffd6fe",
+      "git_blob_oid": "f5c91926d12f3340099dc4fd8ff71a43fdf31934",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/efficiency-nodes-comfyui/py/sdxl_resizer.pt",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "base/efficiency-nodes-comfyui/py/sdxl_resizer.pt"
+      },
+      "bytes": 12628977,
+      "sha256": "0bca261c96e136cb9e2f330f40386e6cbcaaf464cd39e9f7752c9e7b32e825e8",
+      "git_blob_oid": "a611e85506237312706bd49c8e2d8791f43f7303",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/ComfyUI_INSTARAW/pretrained/neural_grain/grainnet.pt",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "extras/ComfyUI_INSTARAW/pretrained/neural_grain/grainnet.pt"
+      },
+      "bytes": 45929,
+      "sha256": "862428869d39254629c5063c7788f6e90ebb861e6b1f6f9a061105e4fdcf7482",
+      "git_blob_oid": "5e4fe25ae155aa1e2f49b74bfd4626a11c035575",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    },
+    {
+      "target": "custom_nodes/ComfyUI_Swwan/r_nudenet/320n.onnx",
+      "source": {
+        "repository": "treforyan-hue/ofm-nodes-mirror",
+        "revision": "aa798d159ba2d8727d0c8d3f7c5c10d266ee415a",
+        "path": "testbed/ComfyUI_Swwan/r_nudenet/320n.onnx"
+      },
+      "bytes": 12150158,
+      "sha256": "776773dd37d99aa2ffe63bec9f92a835d82f3e40d627ffb47d9c3455aec600aa",
+      "git_blob_oid": "fd02bc75d0df296784c9da910f1960f852c40352",
+      "reason": "Existing bundled legacy model; restore only on Linux build/test hosts"
+    }
+  ],
+  "count": 37,
+  "bytes": 92431977,
+  "hf_mirroring": "Retain pinned existing owner copies; move model weights to fwwrsd only after quota increases"
+}

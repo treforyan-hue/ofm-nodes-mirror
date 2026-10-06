@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "aliases": [
+    {
+      "target": "custom_nodes/ComfyUI-Frame-Interpolation/ckpts/rife/rife47.pth",
+      "source": "models/rife/rife47.pth"
+    },
+    {
+      "target": "custom_nodes/ComfyUI-Frame-Interpolation/ckpts/rife/rife49.pth",
+      "source": "models/rife/rife49.pth"
+    }
+  ]
+}

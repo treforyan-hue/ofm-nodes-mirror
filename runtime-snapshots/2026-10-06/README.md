@@ -10,6 +10,10 @@ the listed parts in order to recover a `.tar.gz` archive. Parts stay below the
 GitHub regular-blob size limit. Model weights, interpreter environments, caches,
 credentials and redundant nested distribution ZIPs are excluded.
 
+`bundled-assets.lock.json` pins separate binary auxiliary/model assets to exact
+existing owner copies and their SHA256. These files are restored on Linux
+build/test hosts separately, including the two pinned RIFE model aliases.
+
 Restore only from a full Git commit, never a moving branch head. Verify all
 parts and archive/file hashes before writing the sources. `verify_sources.py`
 performs a read-only verification; its optional Linux-only restore writes a
